@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Formularios en HTML</h2>
+    <form action="pagina_destino" method="get" target="_blank">
+        <label for="fname"><b>Usuario:</b>
+        </label>
+        <input type="text"id="fname" name="fname"><br><br>
+      </form>
+      <label for="pwd"><b>Password:</b></label>
+  <input type="password" id="pwd" name="pwd">
+  <input type="submit" value="Enviar">
+<h4><mark>Aniversario</mark></h4>
+<label for="Aniversario"><b>Aniversario:</b></label>
+  <input type="date" id="Aniversario" name="Aniversario">
+  <h3><b>Correo:</b></h3>
+  <label for="Correo">Ingresa tu correo virtual:</label>
+  <input type="Correo" id="Correo" name="Correo">
+  <h3><b>Edad</b></h3>
+<label for="cantidad">Edad:</label>
+  <input type="number" id="cantidad" name="cantidad" min="0" max="100">
+  <h4>Selecciona tu rango</h4>
+  <form action="/action_page.php">
+    <input type="checkbox" id="Rango" name="Rango" value="Administrador">
+    <label for="Rango"> Administrador</label><br>
+    <input type="checkbox" id="Rango" name="Rango" value="Colaborador">
+    <label for="Rango"> Colaborador</label><br>
+    <input type="checkbox" id="Rango" name="Rango" value="Asociado">
+    <label for="Rango"> Asociado</label><br><br>
+    <h3>Sexo</h3>
+    <input type="radio" id="male" name="gender" value="Hombre">
+  <label for="male">Hombre</label><br>
+  <input type="radio" id="female" name="gender" value="Mujer">
+  <label for="female">Mujer</label>
+  <div>
+      <h3><b>Empresa</b></h3>
+  <label for="Proveedor">Elige una marca:</label>
+<select id="Proveedor" name="Prov.list" form="Proveedor">
+  <option value="Danone">Danone</option>
+  <option value="Qualtia">Qualtia</option>
+  <option value="Sigma">Sigma</option>
+  <option value="Femsa">Femsa</option>
+  <option value="Intercarnes">Intercarnes</option>
+  <option value="Lala">Lala</option>
+
+</select>
+<h4><b>Comentarios</b></h4>
+<textarea rows="4" cols="50" name="comment">Escribe aqui!</textarea>
+<div>
+<input type="submit" value="Enviar">
+</div>
+</body>
+</html>
